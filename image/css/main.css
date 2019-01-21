@@ -1,0 +1,83 @@
+section.description {
+  margin: auto;
+  max-width: 1168px;
+}
+
+section.description > div {
+  width: 33%;
+  text-align: center;
+  float: left;
+  padding: 0 45px 75px 45px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif, arial;
+  color: #6c7279;
+  line-height: 21px;
+}
+
+.bg {
+  background-color: white;
+  background-image: url(http://i.cubeupload.com/FkLHgv.png);
+  background-repeat: no-repeat;
+  margin: auto;
+  float: both;
+}
+
+.one {
+  height: 70px;
+  width: 60px;
+}
+
+.two {
+  height: 70px;
+  width: 82px;
+  background-position: top center;
+} 
+
+.three {
+  height: 70px;
+  width: 60px;
+  background-position: top right;
+}
+
+.four {
+  height: 70px;
+  width: 60px;
+  background-position: bottom left;
+}
+
+.five {
+  height: 60px;
+  width: 82px;
+  background-position: bottom center;
+}
+
+.six {
+  height: 60px;
+  width: 80px;
+  background-position: bottom right;
+}
+
+div > span {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif, arial;
+  color: #2d3033;
+}
+
+section.illustration > div {
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin-bottom: -10px;
+  border: solid 1px white;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
