@@ -1,0 +1,15 @@
+@import "https://netology-code.github.io/html-homeworks/css/resourses/normalize.css";
+
+p {
+  padding-right: 600px;
+}
+
+p:first-letter {
+  padding-left: 25px;
+}
+
+img {
+  height: 150px;
+  margin: 0 20px 0 0;
+  float: left;
+}
