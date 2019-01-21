@@ -1,0 +1,82 @@
+div.head1 {
+  height: 100px;
+  background-color: gray;
+}
+
+div.head2 {
+  height: 100px;
+  background-color: blue;  
+}
+
+.hotnews {
+  height: 300px;
+  background-color: red;
+}
+
+article {
+  width: 66%;
+  float: left;
+}
+
+.news div {
+  height: 1200px;
+  background-color: yellow;
+}
+
+.ads div {
+  height: 300px;
+  background-color: red;
+}
+
+div.announce {
+  height: 450px;
+}
+
+section.partners {
+  height: 200px;
+  background-color: black;
+}
+
+footer {
+  height: 100px;
+  background-color: blue;
+}
+
+div b {
+  font-size: 35px;
+}
+
+div div {
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+div a {
+  display: block;
+  margin-top: 30px;
+  font-size: 25px;
+  color: lightgreen;
+  text-decoration: none;
+}
+
+.nav div {
+  margin: 5px 5px 5px 5px;
+  color: white;
+  background-color: lightgreen;
+  font-size: 15px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.other > ol {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ol li {
+  list-style-position: inside;
+}
